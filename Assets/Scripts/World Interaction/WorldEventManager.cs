@@ -23,6 +23,7 @@ namespace NT {
         public float maxVolume = 1.0f;
 
         public BoxCollider boxColliderBlockedEscape;
+        public BoxCollider[] boxHiddenColliderBlocked;
         public GameObject flagNextMap;
         public GameObject bonfireofMap;
         public GameObject fireKeeper;
@@ -61,6 +62,12 @@ namespace NT {
             bossHasBeenDefeated = true;
             bossFightIsActive = false;
             boxColliderBlockedEscape.isTrigger = true;
+
+            foreach (var collider in boxHiddenColliderBlocked)
+            {
+                collider.isTrigger = true;
+            }
+
             flagNextMap.SetActive(true);
             fireKeeper.SetActive(true);
             bonfireofMap.SetActive(true);

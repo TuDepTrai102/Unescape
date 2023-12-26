@@ -9,26 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/_All Map/Character Creation Menu.unity
     guid: 383bb37770b5de1488f46c2285ccf44b
   - enabled: 1
-    path: Assets/Scenes/_All Map/Map 1.unity
-    guid: d85fefbd9d07d504fa24aa57ce72f187
-  - enabled: 1
-    path: Assets/Scenes/_All Map/Map 2.unity
-    guid: 1108cc3f6a24bd04bb87d1e125550ebd
-  - enabled: 1
-    path: Assets/Scenes/_All Map/Map 3.unity
-    guid: 550b219b5f41e6944b6a465bf8c78838
-  - enabled: 1
-    path: Assets/Scenes/_All Map/Map 4.unity
-    guid: babaceefa014c5f4c98a704f28523c4b
-  - enabled: 1
-    path: Assets/Scenes/_All Map/Map 5.unity
-    guid: 8e558f66c8e13664e9f1c576656a86e4
+    path: Assets/Scenes/TEST SCENE.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/_All Map/Ending Scene.unity
     guid: 3925575409141294487482f622e63769
   - enabled: 0
-    path: Assets/Scenes/TEST SCENE.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/_All Map/Map 1.unity
+    guid: d85fefbd9d07d504fa24aa57ce72f187
+  - enabled: 0
+    path: Assets/Scenes/_All Map/Map 2.unity
+    guid: 1108cc3f6a24bd04bb87d1e125550ebd
+  - enabled: 0
+    path: Assets/Scenes/_All Map/Map 3.unity
+    guid: 550b219b5f41e6944b6a465bf8c78838
+  - enabled: 0
+    path: Assets/Scenes/_All Map/Map 4.unity
+    guid: babaceefa014c5f4c98a704f28523c4b
+  - enabled: 0
+    path: Assets/Scenes/_All Map/Map 5.unity
+    guid: 8e558f66c8e13664e9f1c576656a86e4
   - enabled: 0
     path: Assets/Scenes/Demo/Demo [Map].unity
     guid: 9de093c535dfc9945abee8f445c27231

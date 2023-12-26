@@ -46,7 +46,9 @@ namespace NT
 
                 if (fade <= 0.05f)
                 {
-                    gameObject.SetActive(false);
+                    //gameObject.SetActive(false);
+                    canvas.alpha = 0;
+                    //gameObject.SetActive(true);
                 }
 
                 yield return new WaitForSeconds(0.05f);

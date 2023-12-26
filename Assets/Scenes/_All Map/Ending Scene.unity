@@ -24158,6 +24158,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2135182823}
     - target: {fileID: 6344622481478470841, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
+      propertyPath: bonfireID
+      value: 1232872
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344622481478470841, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: activationFX
       value: 
       objectReference: {fileID: 884891537}

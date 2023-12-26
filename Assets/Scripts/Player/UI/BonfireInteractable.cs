@@ -72,8 +72,8 @@ namespace NT
         {
             if (hasBeenActivated)
             {
-                _bonfireTeleportUI.bonfireMenu_UI.SetActive(true);
-                _bonfireTeleportUI.hudWindow.SetActive(false);
+                //_bonfireTeleportUI.bonfireMenu_UI.SetActive(true);
+                //_bonfireTeleportUI.hudWindow.SetActive(false);
             }
             else
             {
@@ -94,7 +94,7 @@ namespace NT
                 interactableText = "REST";
                 activationFX.gameObject.SetActive(true);
                 activationFX.Play();
-                saveBonfire.SaveBonfire();
+                //saveBonfire.SaveBonfire(); Error @@!!!
                 gameManager.SaveGame();
                 fireFX.gameObject.SetActive(true);
                 fireFX.Play();

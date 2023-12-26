@@ -4890,4 +4890,4 @@ MonoBehaviour:
   interactableText: Pick Up Item
   itemPickUpID: 0
   hasBeenLooted: 0
-  weapon: {fileID: 0}
+  weapon: {fileID: 11400000, guid: 73f4944e75f7b7745a37b244c1fc1bf0, type: 2}

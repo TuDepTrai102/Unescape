@@ -188,7 +188,6 @@ namespace NT
             projectedPlayerLevelText.text = projectedPlayerLevel.ToString();
 
             CalculateSoulCostToLevelUp();
-            soulsRequiredToLevelUp = player.playerStatsManager.currentSoulCount - soulsRequiredToLevelUp;
             soulsRequiredToLevelUpText.text = soulsRequiredToLevelUp.ToString();
 
             if (player.playerStatsManager.currentSoulCount < soulsRequiredToLevelUp)

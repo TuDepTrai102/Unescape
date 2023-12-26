@@ -245,8 +245,8 @@ MonoBehaviour:
   radius: 0.6
   interactableText: PASS THROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 159200574}
-  fogWall: {fileID: 0}
-  fogWallID: 0
+  fogWall: {fileID: 871172839}
+  fogWallID: 123198
   hasBeenPassedFogWall: 0
 --- !u!1001 &182227411
 PrefabInstance:
@@ -552,9 +552,37 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: fogWalls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: fogWalls.Array.data[0]
+      value: 
+      objectReference: {fileID: 539813828}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
       propertyPath: boxColliderBlockedEscape
       value: 
       objectReference: {fileID: 260020674}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[0]
+      value: 
+      objectReference: {fileID: 1567236903}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[1]
+      value: 
+      objectReference: {fileID: 1904159569}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[2]
+      value: 
+      objectReference: {fileID: 82984256}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[3]
+      value: 
+      objectReference: {fileID: 690368502}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -836,7 +864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2469976182604160961, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
       propertyPath: healthLevel
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2469976182604160961, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
       propertyPath: soulsAwardedOnDeath
@@ -2133,6 +2161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chr_FantasyHero_Preset_53
       objectReference: {fileID: 0}
+    - target: {fileID: 1394936244401392, guid: a13a226b3de5990499d4ba5b28e9f3c9, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 4347565220881002, guid: a13a226b3de5990499d4ba5b28e9f3c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2240,7 +2272,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.9, z: 0}
+  m_Center: {x: 0, y: 0.91, z: 0}
 --- !u!54 &1149285046
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2263,8 +2295,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -2567,6 +2599,10 @@ PrefabInstance:
     - target: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 6344622481478470841, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: fireFX

@@ -213,6 +213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chr_FantasyHero_Preset_106
       objectReference: {fileID: 0}
+    - target: {fileID: 1058980811010882, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 4935068796786154, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -263,13 +267,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1058980811010882, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 15437093}
-    - targetCorrespondingSourceObject: {fileID: 1058980811010882, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 15437092}
     - targetCorrespondingSourceObject: {fileID: 1058980811010882, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 15437091}
+    - targetCorrespondingSourceObject: {fileID: 1058980811010882, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 15437093}
   m_SourcePrefab: {fileID: 100100000, guid: ffd64f9df026ffe4b9b889b96f8847e9, type: 3}
 --- !u!4 &15437089 stripped
 Transform:
@@ -317,8 +321,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -347,7 +351,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.9, z: 0}
+  m_Center: {x: 0, y: 0.91, z: 0}
 --- !u!1001 &65109840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -698,6 +702,26 @@ PrefabInstance:
       propertyPath: fadeDuration
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: fogWalls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: fogWalls.Array.data[0]
+      value: 
+      objectReference: {fileID: 1069249888}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[0]
+      value: 
+      objectReference: {fileID: 396121725}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[1]
+      value: 
+      objectReference: {fileID: 2056883838}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1127,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2469976182604160961, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
       propertyPath: healthLevel
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2469976182604160961, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
       propertyPath: soulsAwardedOnDeath
@@ -1345,8 +1369,8 @@ MonoBehaviour:
   radius: 0.6
   interactableText: PASSTHROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 567028939}
-  fogWall: {fileID: 0}
-  fogWallID: 0
+  fogWall: {fileID: 1066911960}
+  fogWallID: 2437426
   hasBeenPassedFogWall: 0
 --- !u!1001 &643248597
 PrefabInstance:
@@ -1362,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2605828260399915806, guid: f20f5667f89686e458335e758335e5aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.0595512
+      value: 5.071
       objectReference: {fileID: 0}
     - target: {fileID: 2605828260399915806, guid: f20f5667f89686e458335e758335e5aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1423,6 +1447,10 @@ PrefabInstance:
     - target: {fileID: 6835947726051080698, guid: f20f5667f89686e458335e758335e5aa, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835947726051080698, guid: f20f5667f89686e458335e758335e5aa, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2030,6 +2058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5163420262914704580, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: m_Name
       value: BONFIRE (MAP 4)
@@ -2037,6 +2069,10 @@ PrefabInstance:
     - target: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 6344622481478470841, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       propertyPath: fireFX
@@ -2100,6 +2136,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1320372509}
+    - targetCorrespondingSourceObject: {fileID: 5639674961688969954, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1320372510}
   m_SourcePrefab: {fileID: 100100000, guid: ee2a2c95a0eb4cc46946b2719c6f7250, type: 3}
 --- !u!198 &1320372504 stripped
 ParticleSystem:
@@ -2222,6 +2261,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!135 &1320372510
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320372508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1331116384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2368,6 +2428,10 @@ PrefabInstance:
     - target: {fileID: 1809022330002312, guid: 458902ff0fa27c74b9d47ccd0895a18d, type: 3}
       propertyPath: m_Name
       value: FX_Fire_Explosion_01 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809022330002312, guid: 458902ff0fa27c74b9d47ccd0895a18d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4150649967365504, guid: 458902ff0fa27c74b9d47ccd0895a18d, type: 3}
       propertyPath: m_LocalPosition.x
