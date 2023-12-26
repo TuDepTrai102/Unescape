@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb76973407b21345b3bf23bafdabd4d, type: 3}
+  m_Name: Lightning Weapon Buff Effect
+  m_EditorClassIdentifier: 
+  effectID: 0
+  buffClass: 2
+  lengthOfBuff: 0
+  timeRemainingOnBuff: 0
+  isRightHandedBuff: 0
+  buffAmbientSound: {fileID: 0}
+  ambientSoundVolume: 0.3
+  buffBaseDamagePercentageMultiplier: 15
+  buffPoiseDamage: 0
+  buffBasePoiseDamagePercentageMultiplier: 15
+  buffHasStarted: 0

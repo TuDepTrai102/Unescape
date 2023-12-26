@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd7d9f493792d44baee15dcba02aa75, type: 3}
+  m_Name: Estus Flask
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 4fa79cffd6c3fcc4d9ac08d55ba62f6b, type: 3}
+  itemName: Estus Flask
+  itemID: 100
+  itemDescription: "This item help you recovery a large HP... \n\n\"now, return and
+    kick in ass your enemy\""
+  maxItemAmount: 10
+  currentItemAmount: 10
+  itemModel: {fileID: 5841744247431237611, guid: e6886b6c5712f6f4d9721a2db1a66969, type: 3}
+  consumeAnimation: Potion_Drink 0
+  isInteracting: 1
+  estusFlask: 1
+  ashenFlask: 0
+  healthRecoverAmount: 250
+  focusPointsRecoverAmount: 0
+  recoveryFX: {fileID: 1881552412633134, guid: c0dabec39fcf2ff4aae9d9eb61a563f1, type: 3}

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33f7dce0da34ef47a0422972df9b515, type: 3}
+  m_Name: Small Shield
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: d527e17e273f96941a50e912325ecd79, type: 3}
+  itemName: Small Shield
+  itemID: 2132321
+  itemDescription: A Small Shield, help you defense (little bit) when Enemy damging
+    ~~
+  modelPrefab: {fileID: 6892758078399027775, guid: fd068623fd1adb744bc701f692bb1c7c, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 22100000, guid: 2f3a8ea2ee1196f4babb6d660d5c1b33, type: 2}
+  weaponType: 5
+  physicalDamage: 0
+  fireDamage: 0
+  _lightningDamage: 0
+  _darkDamage: 0
+  _magicDamage: 0
+  _bleedDamage: 0
+  lightAttackDamageModifier: 0
+  heavyAttackDamageModifier: 0
+  criticalDamageMultiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 0
+  offensivePoiseBonus: 0
+  physicalBlockingDamageAbsorption: 99
+  fireBlockingDamageAbsorption: 0
+  _lightningBlockingDamageAbsorption: 0
+  _darkBlockingDamageAbsorption: 0
+  _magicBlockingDamageAbsorption: 0
+  _bleedBlockingDamageAbsorption: 0
+  stability: 67
+  baseStaminaCost: 0
+  lightAttackStaminaMultiplier: 0
+  heavyAttackStaminaMultiplier: 0
+  oh_hold_E_Action: {fileID: 0}
+  oh_tap_E_Action: {fileID: 0}
+  oh_hold_T_Action: {fileID: 0}
+  oh_tap_T_Action: {fileID: 0}
+  oh_hold_Z_Action: {fileID: 0}
+  oh_tap_Z_Action: {fileID: 11400000, guid: e844e7b733e1c4a4592b5fae0968c371, type: 2}
+  oh_hold_X_Action: {fileID: 11400000, guid: 9c6642e65c06731479c2f2eb2e3cc365, type: 2}
+  oh_tap_X_Action: {fileID: 0}
+  _oh_tap_Q_Action: {fileID: 0}
+  _oh_hold_Q_Action: {fileID: 0}
+  th_hold_E_Action: {fileID: 0}
+  th_tap_E_Action: {fileID: 0}
+  th_hold_T_Action: {fileID: 0}
+  th_tap_T_Action: {fileID: 0}
+  th_hold_Z_Action: {fileID: 0}
+  th_tap_Z_Action: {fileID: 0}
+  th_hold_X_Action: {fileID: 0}
+  th_tap_X_Action: {fileID: 0}
+  weaponWhooshes:
+  - {fileID: 8300000, guid: 6e2b08815a1a8984a91fdd438dd51cf0, type: 3}
+  - {fileID: 8300000, guid: 5c3acc3c9f23d2f4fa3d6ed590a8926b, type: 3}
+  blockingNoises:
+  - {fileID: 8300000, guid: 1ecbd5566298fd045b79a14e936fc9ca, type: 3}
+  - {fileID: 8300000, guid: c49523322687c924da98091e68114a50, type: 3}
+  - {fileID: 8300000, guid: 73feb329ddb26834d880e7dd33b4e595, type: 3}
+  canBuffed: 1

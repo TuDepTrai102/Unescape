@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3919f359f7461e345a8fba6d4a2b63d1, type: 3}
+  m_Name: Hand Equipment 2
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: c53f371076111e64a978f57dc37a8a2e, type: 3}
+  itemName: 
+  itemID: 1012
+  itemDescription: 
+  physicalDefense: 3
+  magicDefense: 2
+  _fireDefense: 1
+  _lightningDefense: 0
+  _darkDefense: 0
+  _bleedDefense: 0
+  weight: 3
+  poisonResistance: 0.2
+  _bleedResistance: 0
+  _curseResistance: 0
+  leftHandModelName: Chr_HandLeft_Male_08
+  rightHandModelName: Chr_HandRight_Male_08
+  lowerLeftArmModelName: Chr_ArmLowerLeft_Male_13
+  lowerRightArmModelName: Chr_ArmLowerRight_Male_13

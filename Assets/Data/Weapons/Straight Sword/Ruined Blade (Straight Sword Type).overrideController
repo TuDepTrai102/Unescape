@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ruined Blade (Straight Sword Type)
+  m_Controller: {fileID: 9100000, guid: f6b304eb90788bd4b8f67514da751b57, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -81773759949406527, guid: f52f840fad104294c9d250143cc00095, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0b98eec8373b8524682bd847e47ceb96, type: 3}
+  - m_OriginalClip: {fileID: 2961422287374439628, guid: b15bed2d9e6ad2a4f8935000afa604b7, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4a3dbeda6b2f9fd4ead9231199ae7c26, type: 3}
+  - m_OriginalClip: {fileID: -752960854015167967, guid: 8bb7b03f0bb12894cbd354978787316b, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 71917d12e9eda7045bf80a087b8f2b52, type: 3}
+  - m_OriginalClip: {fileID: -3700342447655175065, guid: 4164ed0dc720d414e9151ddaa214cfe3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: b883a072875185b4da6cb2f9aa1b7453, type: 3}
+  - m_OriginalClip: {fileID: -8895103160339860770, guid: 66a105496ba3a6345829534d1716f648, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e1857221035c8e146860d0fa93a772c2, type: 3}
+  - m_OriginalClip: {fileID: -6464783489146424885, guid: 997c2ce94091e734782dc9d780a17e7a, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 901b8cc5142aaae419ace803a0ab5d11, type: 3}
+  - m_OriginalClip: {fileID: -9101093651973782818, guid: 7796695ffdc4d22458860c08771eccd3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 3b00c3d921f68c14aaebb4e84d71c0b8, type: 3}
+  - m_OriginalClip: {fileID: 7322486174661452288, guid: 671cdcf56813a9a4fa2ab66c518746fe, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 34ba47f7079a4eb449eb42c2bcc4d654, type: 3}
+  - m_OriginalClip: {fileID: -4656541918471678978, guid: 21df4051ae2946344a509bf06d384b26, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0b615fa36afeeab4e81dddb630d75b16, type: 3}
+  - m_OriginalClip: {fileID: 8740057948749620352, guid: 0b9f7db690a669f4c90a22030d2376b3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e4ef171472a6a0d4f977e78815ee90e5, type: 3}
+  - m_OriginalClip: {fileID: -1488202060093986787, guid: cf0316a0796755d4d9a1b4f35ddf4ebd, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 16b7f0647077fed45a038082e194b2bd, type: 3}
+  - m_OriginalClip: {fileID: -1826473251358962023, guid: 5617b5815a595254fa0fc8774e159b5c, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d3b207d2ab5f2fd40a3552a21f4040dd, type: 3}
+  - m_OriginalClip: {fileID: -3881248725432346389, guid: da157f0f82a1cbd4c9cac0a33bd8c0f6, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 9447c3c10e003c34f8e64e607c35b881, type: 3}
+  - m_OriginalClip: {fileID: -1015511489317998134, guid: 4f322d9beb1bcb24fa60a50eaf9f270a, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 376c5e507a5b4904aaeccb3e7cbd83a8, type: 3}
+  - m_OriginalClip: {fileID: 5381537897368614607, guid: 50f8ed87197ef144c869a9721b60e509, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: ed7aca4ca3c8162438c739be3ea77b9c, type: 3}
+  - m_OriginalClip: {fileID: -6515822650386919681, guid: 5ff8e28f86f1fce4bbb74f9e42877eea, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 1d831215ae7e8864f80118b55598d873, type: 3}
+  - m_OriginalClip: {fileID: 5235992637885036138, guid: 7b8faca3f057c374ea063abd310095f6, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: fa503b4c4c9fd754ca17da6669aa4094, type: 3}
+  - m_OriginalClip: {fileID: 4351752844515222478, guid: fa99679c1c138174294139213977f8b1, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: a516ab4f18beb3a47877bea7e766b759, type: 3}
+  - m_OriginalClip: {fileID: 673659374932735726, guid: 9937df2f53e9ef842bff45c341c0f87a, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 7b714e5114f47884a8e4098160924db4, type: 3}
+  - m_OriginalClip: {fileID: -2746501166638713497, guid: 5053293cd4e2807468b2cbb8332b8ef0, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0ad54206261718e4d9d5d543d4abd647, type: 3}

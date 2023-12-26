@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4111e4d3fbdb23040aa8b78591a5a01c, type: 3}
+  m_Name: Arrow (Enemy)
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: f59a53e037cd264429828bd189a7afeb, type: 3}
+  itemName: Arrow
+  itemID: 1338
+  itemDescription: Wood arrow !!!!
+  ammoType: 0
+  forwardVelocity: 1000
+  upwardVelocity: 100
+  ammoMass: 0
+  useGravity: 1
+  carryLimit: 99
+  currentAmount: 99
+  physicalDamage: 2
+  _fireDamage: 2
+  _darkDamage: 2
+  _magicDamage: 2
+  _lightningDamage: 2
+  loadedItemModel: {fileID: 2521515956783521950, guid: c69cc2d8c3358e94fb0b1fa13225c960, type: 3}
+  liveItemModel: {fileID: 4351126355482016170, guid: e844f62465dd27540a0782a202f33ca6, type: 3}
+  penetratedModel: {fileID: 2521515956783521950, guid: e8b32d14c86703f47924811617775e4d, type: 3}

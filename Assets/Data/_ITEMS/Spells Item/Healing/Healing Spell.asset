@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e929f1b97ce997498baf96cadd2ce2c, type: 3}
+  m_Name: Healing Spell
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 8b1d387eb61b07c4e97dcb32eba5ffea, type: 3}
+  itemName: Healing Spell
+  itemID: 10000
+  itemDescription: You must use this spell with one [magic item] (Faith item).
+  spellWarmUpFX: {fileID: 1233254026376546, guid: 632b5020bd1d156479343e052e95f039, type: 3}
+  spellCastFX: {fileID: 1365538819899408, guid: a5bd4642624c0c6449b0c48924f51510, type: 3}
+  spellAnimation: Potion_Drink
+  focusPointCost: 0
+  isFaithSpell: 1
+  isMagicSpell: 0
+  isPyroSpell: 0
+  spellDescription: Your Character maybe recovery 50 health now.
+  healAmount: 50

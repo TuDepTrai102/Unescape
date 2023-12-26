@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33f7dce0da34ef47a0422972df9b515, type: 3}
+  m_Name: Faith Caster Item
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 93b340c001f0f4846abc48c74600d0d4, type: 3}
+  itemName: Faith Cast Item
+  itemID: 73123
+  itemDescription: This item help you using [HEALING SPELL].
+  modelPrefab: {fileID: 5841744247431237611, guid: 4a538e0ffbb1fe247825b3534f01b8b3, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 22100000, guid: 026fbc97914f4c744a1ae90bd84f4d0f, type: 2}
+  weaponType: 1
+  physicalDamage: 0
+  fireDamage: 0
+  _lightningDamage: 0
+  _darkDamage: 0
+  _magicDamage: 0
+  _bleedDamage: 0
+  lightAttackDamageModifier: 0
+  heavyAttackDamageModifier: 0
+  criticalDamageMultiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 0
+  offensivePoiseBonus: 0
+  physicalBlockingDamageAbsorption: 0
+  fireBlockingDamageAbsorption: 0
+  _lightningBlockingDamageAbsorption: 0
+  _darkBlockingDamageAbsorption: 0
+  _magicBlockingDamageAbsorption: 0
+  _bleedBlockingDamageAbsorption: 0
+  stability: 67
+  baseStaminaCost: 0
+  lightAttackStaminaMultiplier: 0
+  heavyAttackStaminaMultiplier: 0
+  oh_hold_E_Action: {fileID: 0}
+  oh_tap_E_Action: {fileID: 11400000, guid: 2e76f7d52a73158478065532baf787c3, type: 2}
+  oh_hold_T_Action: {fileID: 0}
+  oh_tap_T_Action: {fileID: 0}
+  oh_hold_Z_Action: {fileID: 11400000, guid: 2e76f7d52a73158478065532baf787c3, type: 2}
+  oh_tap_Z_Action: {fileID: 0}
+  oh_hold_X_Action: {fileID: 0}
+  oh_tap_X_Action: {fileID: 0}
+  _oh_tap_Q_Action: {fileID: 0}
+  _oh_hold_Q_Action: {fileID: 0}
+  th_hold_E_Action: {fileID: 0}
+  th_tap_E_Action: {fileID: 0}
+  th_hold_T_Action: {fileID: 0}
+  th_tap_T_Action: {fileID: 0}
+  th_hold_Z_Action: {fileID: 0}
+  th_tap_Z_Action: {fileID: 0}
+  th_hold_X_Action: {fileID: 0}
+  th_tap_X_Action: {fileID: 0}
+  weaponWhooshes: []
+  blockingNoises: []
+  canBuffed: 0

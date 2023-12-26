@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2574691170830966065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5874611523252536949}
+  m_Layer: 0
+  m_Name: Pivot Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5874611523252536949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2574691170830966065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7910938, y: -0.18473406, z: 0.0015365458, w: 0.5831308}
+  m_LocalPosition: {x: 0.068, y: 0.053, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2643658305265204517}
+  m_Father: {fileID: 872518785317463390}
+  m_LocalEulerAnglesHint: {x: -67.228, y: -145.743, z: 130.556}
+--- !u!1 &5841744247431237611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872518785317463390}
+  m_Layer: 0
+  m_Name: FAITH ITEM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872518785317463390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841744247431237611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5874611523252536949}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6014745850793636010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5874611523252536949}
+    m_Modifications:
+    - target: {fileID: 677276751782432170, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_Name
+      value: Cola Can (ESTUS FLASK)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+--- !u!4 &2643658305265204517 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8631291910299372943, guid: 0fc269d62cf172e47a271b8063601f2b, type: 3}
+  m_PrefabInstance: {fileID: 6014745850793636010}
+  m_PrefabAsset: {fileID: 0}

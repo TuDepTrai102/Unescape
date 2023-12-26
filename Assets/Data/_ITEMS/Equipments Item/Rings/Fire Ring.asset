@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b267316246d5094c9e2223a20abe0f4, type: 3}
+  m_Name: Fire Ring
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: e536103c168e94945a68255d36866706, type: 3}
+  itemName: Fire ring
+  itemID: 4
+  itemDescription: 
+  effect: {fileID: 11400000, guid: 27010e76a49f466468531dcf72bbdcd5, type: 2}
+  itemEffectInformation: 

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44252db7b4888084a967252108acb478, type: 3}
+  m_Name: Body Equipment 4
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 8efbaae92dda2824bb3e954088e21f9e, type: 3}
+  itemName: 
+  itemID: 1009
+  itemDescription: 
+  physicalDefense: 7
+  magicDefense: 5
+  _fireDefense: 4
+  _lightningDefense: 0
+  _darkDefense: 0
+  _bleedDefense: 0
+  weight: 7
+  poisonResistance: 0.2
+  _bleedResistance: 0
+  _curseResistance: 0
+  torsoModelName: Chr_Torso_Male_08
+  upperLeftArmModelName: Chr_ArmUpperLeft_Male_09
+  upperRightArmModelName: Chr_ArmUpperRight_Male_09
+  leftShoulderModelName: Chr_ShoulderAttachLeft_14
+  rightShoulderModelName: Chr_ShoulderAttachRight_14
+  leftElbowModelName: Chr_ElbowAttachLeft_01
+  rightElbowModelName: Chr_ElbowAttachRight_01

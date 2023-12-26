@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33f7dce0da34ef47a0422972df9b515, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 0837f904a13926442a700ed11d4da41c, type: 3}
+  itemName: Spear
+  itemID: 132
+  itemDescription: Justice Spear...
+  modelPrefab: {fileID: 2495699691538326549, guid: 8aad4e578f010984280187ab52ebc3ef, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 22100000, guid: 2d94f28b87e95894b92b7423d5a35418, type: 2}
+  weaponType: 8
+  physicalDamage: 32
+  fireDamage: 0
+  _lightningDamage: 0
+  _darkDamage: 0
+  _magicDamage: 0
+  _bleedDamage: 0
+  lightAttackDamageModifier: 1
+  heavyAttackDamageModifier: 1.5
+  criticalDamageMultiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 0
+  offensivePoiseBonus: 0
+  physicalBlockingDamageAbsorption: 0
+  fireBlockingDamageAbsorption: 0
+  _lightningBlockingDamageAbsorption: 0
+  _darkBlockingDamageAbsorption: 0
+  _magicBlockingDamageAbsorption: 0
+  _bleedBlockingDamageAbsorption: 0
+  stability: 67
+  baseStaminaCost: 10
+  lightAttackStaminaMultiplier: 1
+  heavyAttackStaminaMultiplier: 2
+  oh_hold_E_Action: {fileID: 11400000, guid: 27edfc4cdae908749b2711a9eab0eef2, type: 2}
+  oh_tap_E_Action: {fileID: 11400000, guid: d991147a9f1bf5641aeb58f56c95ed17, type: 2}
+  oh_hold_T_Action: {fileID: 11400000, guid: 114a4853f5d891a498ed5d9727fad4c0, type: 2}
+  oh_tap_T_Action: {fileID: 11400000, guid: 22a0b6904b83bac409d4f83dd97c2a31, type: 2}
+  oh_hold_Z_Action: {fileID: 0}
+  oh_tap_Z_Action: {fileID: 0}
+  oh_hold_X_Action: {fileID: 0}
+  oh_tap_X_Action: {fileID: 0}
+  _oh_tap_Q_Action: {fileID: 0}
+  _oh_hold_Q_Action: {fileID: 0}
+  th_hold_E_Action: {fileID: 0}
+  th_tap_E_Action: {fileID: 11400000, guid: d991147a9f1bf5641aeb58f56c95ed17, type: 2}
+  th_hold_T_Action: {fileID: 11400000, guid: 114a4853f5d891a498ed5d9727fad4c0, type: 2}
+  th_tap_T_Action: {fileID: 11400000, guid: 22a0b6904b83bac409d4f83dd97c2a31, type: 2}
+  th_hold_Z_Action: {fileID: 0}
+  th_tap_Z_Action: {fileID: 0}
+  th_hold_X_Action: {fileID: 0}
+  th_tap_X_Action: {fileID: 0}
+  weaponWhooshes:
+  - {fileID: 8300000, guid: 6e2b08815a1a8984a91fdd438dd51cf0, type: 3}
+  - {fileID: 8300000, guid: 5c3acc3c9f23d2f4fa3d6ed590a8926b, type: 3}
+  blockingNoises:
+  - {fileID: 8300000, guid: 1ecbd5566298fd045b79a14e936fc9ca, type: 3}
+  - {fileID: 8300000, guid: c49523322687c924da98091e68114a50, type: 3}
+  - {fileID: 8300000, guid: 73feb329ddb26834d880e7dd33b4e595, type: 3}
+  canBuffed: 1

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cf2385dcec41c41996ff7f618e0ade, type: 3}
+  m_Name: Clump Consumeable Item
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 103e5a3609c72014d9beec0c820c1e17, type: 3}
+  itemName: Clump Consumable
+  itemID: 102
+  itemDescription: You can use this item when you [Poisoned], it's help your character
+    CLEANSE.
+  maxItemAmount: 10
+  currentItemAmount: 3
+  itemModel: {fileID: 5841744247431237611, guid: e32406425fae1b64fb14a02094221627, type: 3}
+  consumeAnimation: Potion_Drink 0
+  isInteracting: 1
+  clumpConsumeFX: {fileID: 5220722411488037152, guid: 1d16ee0430562b44ebe2a3dbb9f1a6a1, type: 3}
+  curePoison: 1
+  _cureBleed: 0
+  _cureCurse: 0
