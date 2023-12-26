@@ -1887,51 +1887,51 @@ namespace NT
 
             #region POSITION WILL BE LOAD
 
-            //if (currentCharacterSaveData.sceneIndex == 0)
-            //{
-            //    currentCharacterSaveData.sceneIndex = 1;
+            if (currentCharacterSaveData.sceneIndex == 0)
+            {
+                currentCharacterSaveData.sceneIndex = 1;
 
-            //    Vector3 loadPosition = new Vector3(-83, -5, 43);
-            //    characterController.Move(loadPosition - transform.position);
-            //}
-            //else
-            //{
-            //    if (currentCharacterSaveData.sceneIndex == 1)
-            //    {
-            //        if (currentCharacterSaveData.xPosition != 0 &&
-            //            currentCharacterSaveData.yPosition != 0 &&
-            //            currentCharacterSaveData.zPosition != 0)
-            //        {
-            //            Vector3 loadPosition = new Vector3(
-            //                currentCharacterSaveData.xPosition,
-            //                currentCharacterSaveData.yPosition,
-            //                currentCharacterSaveData.zPosition);
-            //            characterController.Move(loadPosition - transform.position);
-            //        }
-            //        else
-            //        {
-            //            Vector3 loadPosition = new Vector3(-83, -5, 43);
-            //            characterController.Move(loadPosition - transform.position);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        Vector3 loadPosition = new Vector3(
-            //            currentCharacterSaveData.xPosition,
-            //            currentCharacterSaveData.yPosition,
-            //            currentCharacterSaveData.zPosition);
-            //        characterController.Move(loadPosition - transform.position);
-            //    }
-            //}
+                Vector3 loadPosition = new Vector3(-83, -5, 43);
+                characterController.Move(loadPosition - transform.position);
+            }
+            else
+            {
+                if (currentCharacterSaveData.sceneIndex == 1)
+                {
+                    if (currentCharacterSaveData.xPosition != 0 &&
+                        currentCharacterSaveData.yPosition != 0 &&
+                        currentCharacterSaveData.zPosition != 0)
+                    {
+                        Vector3 loadPosition = new Vector3(
+                            currentCharacterSaveData.xPosition,
+                            currentCharacterSaveData.yPosition,
+                            currentCharacterSaveData.zPosition);
+                        characterController.Move(loadPosition - transform.position);
+                    }
+                    else
+                    {
+                        Vector3 loadPosition = new Vector3(-83, -5, 43);
+                        characterController.Move(loadPosition - transform.position);
+                    }
+                }
+                else
+                {
+                    Vector3 loadPosition = new Vector3(
+                        currentCharacterSaveData.xPosition,
+                        currentCharacterSaveData.yPosition,
+                        currentCharacterSaveData.zPosition);
+                    characterController.Move(loadPosition - transform.position);
+                }
+            }
 
             #endregion
 
             //TEST POSITION
-            Vector3 loadPosition = new Vector3(
-                currentCharacterSaveData.xPosition,
-                currentCharacterSaveData.yPosition,
-                currentCharacterSaveData.zPosition);
-            characterController.Move(loadPosition - transform.position);
+            //Vector3 loadPosition = new Vector3(
+            //    currentCharacterSaveData.xPosition,
+            //    currentCharacterSaveData.yPosition,
+            //    currentCharacterSaveData.zPosition);
+            //characterController.Move(loadPosition - transform.position);
 
             #region SKILLS
             //SKILL POINTS COUNT
