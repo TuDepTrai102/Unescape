@@ -33,6 +33,7 @@ namespace NT
             if (enemy.aiCharacterStatsManager.isBoss)
             {
                 enemy.aiCharacterStatsManager.armorPoiseBonus = 750;
+                enemy.aiCharacterLocomotionManager.yVelocity.y = enemy.aiCharacterLocomotionManager.groundYVelocity;
             }
         }
 

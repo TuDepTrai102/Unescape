@@ -863,8 +863,6 @@ MonoBehaviour:
   interactableText: PASSTHROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 551585954}
   fogWall: {fileID: 1266719830}
-  fogWallID: 0
-  hasBeenPassedFogWall: 0
 --- !u!65 &551585954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1457,6 +1455,14 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: theBOSS_prebab
+      value: 
+      objectReference: {fileID: 1833291201}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: acceptFightingBoss
+      value: 
+      objectReference: {fileID: 1833291203}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
       propertyPath: fogWalls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1468,6 +1474,14 @@ PrefabInstance:
       propertyPath: boxColliderBlockedEscape
       value: 
       objectReference: {fileID: 867039622}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: boxHiddenColliderBlocked.Array.data[0]
+      value: 
+      objectReference: {fileID: 551585954}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2392,6 +2406,17 @@ MonoBehaviour:
   - {fileID: 5569818030183553092, guid: 0a6fbf175e91e634c9b25a2ed81d16c9, type: 3}
   - {fileID: 7528239860055596955, guid: 4b7b9048ebece3d469b1bb2d64577c29, type: 3}
   - {fileID: 1294126455384193215, guid: 6522fc775a4466d44b38122ebb5164ed, type: 3}
+--- !u!114 &1833291203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7999937385290257257, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
+  m_PrefabInstance: {fileID: 1833291198}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7b0671e402bd047aeac747347b4374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1868799492
 PrefabInstance:
   m_ObjectHideFlags: 0

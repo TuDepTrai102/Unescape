@@ -21,7 +21,7 @@ MonoBehaviour:
   isUnarmed: 0
   weaponController: {fileID: 22100000, guid: fda01da3ff210dc428b188809a6a2b78, type: 2}
   weaponType: 4
-  physicalDamage: 75
+  physicalDamage: 150
   fireDamage: 0
   _lightningDamage: 0
   _darkDamage: 0

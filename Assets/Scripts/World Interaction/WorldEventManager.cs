@@ -8,6 +8,7 @@ namespace NT {
         public List<FogWall> fogWalls;
         public UIBossHealthBar bossHealthBar;
         public AICharacterBossManager boss;
+        public _AcceptFightingBoss acceptFightingBoss;
 
         [Header("BOSS INFORMATION")]
         public int bossID;
@@ -27,15 +28,32 @@ namespace NT {
         public GameObject flagNextMap;
         public GameObject bonfireofMap;
         public GameObject fireKeeper;
+        public GameObject theBOSS_prebab;
 
         private void Awake()
         {
             bossHealthBar = FindObjectOfType<UIBossHealthBar>();
+            acceptFightingBoss = FindObjectOfType<_AcceptFightingBoss>();
             boxColliderBlockedEscape = GetComponent<BoxCollider>();
         }
 
         private void Start()
         {
+            //IF THE SAVE DATA DOES NOT CONTAIN THIS ITEM, WE MUST HAVE NEVER LOOTED IT,
+            //SO WE ADD IT TO THE LIST AND LIST IT AS NOT LOOTED
+            if (!WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld.ContainsKey(bossID))
+            {
+                WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld.Add(bossID, false);
+            }
+
+            hasBeenDefeatedBOSS = WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld[bossID];
+
+            if (hasBeenDefeatedBOSS)
+            {
+                theBOSS_prebab.SetActive(false);
+                BossHasBeenDefeated();
+            }
+
             audioSource = GetComponent<AudioSource>();
             audioSource.clip = bossMusic;
             boxColliderBlockedEscape.isTrigger = true;
@@ -48,24 +66,40 @@ namespace NT {
 
         public void ActivateBossFight()
         {
-            bossFightIsActive = true;
-            boxColliderBlockedEscape.isTrigger = false;
-
-            foreach (var fogWall in fogWalls)
+            if (!bossHasBeenDefeated)
             {
-                fogWall.ActivateFogWall();
+                bossFightIsActive = true;
+                boxColliderBlockedEscape.isTrigger = false;
+
+                foreach (var fogWall in fogWalls)
+                {
+                    fogWall.ActivateFogWall();
+                }
+            }
+            else
+            {
+                BossHasBeenDefeated();
             }
         }
 
         public void BossHasBeenDefeated()
         {
+            //NOTIFY THE CHARACTER DATA THIS ITEM HAS BEEN LOOTED FROM THE WORLD, SO IT DOES NOT SPAWN AGAIN
+            if (WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld.ContainsKey(bossID))
+            {
+                WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld.Remove(bossID);
+            }
+
+            //SAVES THE PICK UP TO OUR SAVE DATA SO IT DOES NOT SPAWN AGAIN WHEN WE RE-LOAD THE AREA
+            WorldSaveGameManager.instance.currentCharacterSaveData.bossInWorld.Add(bossID, true);
+
             bossHasBeenDefeated = true;
             bossFightIsActive = false;
-            boxColliderBlockedEscape.isTrigger = true;
+            Destroy(boxColliderBlockedEscape);
 
             foreach (var collider in boxHiddenColliderBlocked)
             {
-                collider.isTrigger = true;
+                Destroy(collider);
             }
 
             flagNextMap.SetActive(true);

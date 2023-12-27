@@ -114,14 +114,25 @@ namespace NT
             //ROTATE WITH PATHFINDING (NAVMESH AGENT)
             else
             {
-                Vector3 relativeRotation = transform.InverseTransformDirection(enemyManager.navMeshAgent.desiredVelocity);
                 Vector3 targetVelocity = enemyManager.aiRigidbody.velocity;
 
                 enemyManager.navMeshAgent.enabled = true;
                 enemyManager.navMeshAgent.SetDestination(enemyManager.currentTarget.transform.position);
                 enemyManager.aiRigidbody.velocity = targetVelocity;
-                enemyManager.transform.rotation = Quaternion.Slerp
-                    (enemyManager.transform.rotation, enemyManager.navMeshAgent.transform.rotation, enemyManager.rotationSpeed);
+                enemyManager.aiRigidbody.velocity = enemyManager.navMeshAgent.desiredVelocity;
+
+                Vector3 directionToTarget = (enemyManager.currentTarget.transform.position - enemyManager.transform.position).normalized;
+
+                if (directionToTarget != Vector3.zero)
+                {
+                    Quaternion targetRotation = Quaternion.LookRotation(directionToTarget);
+
+                    enemyManager.transform.rotation = Quaternion.Slerp
+                        (enemyManager.transform.rotation, targetRotation, enemyManager.rotationSpeed);
+                }
+
+                //enemyManager.transform.rotation = Quaternion.Slerp
+                //    (enemyManager.transform.rotation, enemyManager.navMeshAgent.transform.rotation, enemyManager.rotationSpeed);
             }
         }
     }

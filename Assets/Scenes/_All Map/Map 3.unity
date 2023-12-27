@@ -859,6 +859,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 347625111752651931, guid: b901f4007ad0a134592bf73701546f4e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 902629504}
+    - targetCorrespondingSourceObject: {fileID: 347625111752651931, guid: b901f4007ad0a134592bf73701546f4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902629505}
   m_SourcePrefab: {fileID: 100100000, guid: b901f4007ad0a134592bf73701546f4e, type: 3}
 --- !u!1 &902629503 stripped
 GameObject:
@@ -877,8 +880,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842728f7a4133b24cbf1089c2a780396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.6
+  radius: 1.6
   interactableText: PRESS [F] TO OPEN SHOP
+--- !u!135 &902629505
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902629503}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &959165313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1015,8 +1039,6 @@ MonoBehaviour:
   interactableText: PASS THROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 980833310}
   fogWall: {fileID: 189561284}
-  fogWallID: 3213
-  hasBeenPassedFogWall: 0
 --- !u!1001 &988384290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2641,11 +2663,23 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: theBOSS_prebab
+      value: 
+      objectReference: {fileID: 1890133504}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: acceptFightingBoss
+      value: 
+      objectReference: {fileID: 1890133506}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
       propertyPath: fogWalls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
       propertyPath: fogWalls.Array.data[0]
+      value: 
+      objectReference: {fileID: 2096325805}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: fogWalls.Array.data[1]
       value: 
       objectReference: {fileID: 2096325805}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
@@ -3219,8 +3253,6 @@ MonoBehaviour:
   interactableText: PASS THROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 1724302169}
   fogWall: {fileID: 189561284}
-  fogWallID: 35431
-  hasBeenPassedFogWall: 0
 --- !u!1001 &1761852479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3697,6 +3729,17 @@ MonoBehaviour:
   - {fileID: 5569818030183553092, guid: 0a6fbf175e91e634c9b25a2ed81d16c9, type: 3}
   - {fileID: 7528239860055596955, guid: 4b7b9048ebece3d469b1bb2d64577c29, type: 3}
   - {fileID: 1294126455384193215, guid: 6522fc775a4466d44b38122ebb5164ed, type: 3}
+--- !u!114 &1890133506 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7999937385290257257, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
+  m_PrefabInstance: {fileID: 1890133501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7b0671e402bd047aeac747347b4374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2010700123
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -246,8 +246,6 @@ MonoBehaviour:
   interactableText: PASS THROUGH TO FIGHT BOSS
   _collider_wall_BOSS_stage: {fileID: 159200574}
   fogWall: {fileID: 871172839}
-  fogWallID: 123198
-  hasBeenPassedFogWall: 0
 --- !u!1001 &182227411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -551,6 +549,14 @@ PrefabInstance:
       propertyPath: fadeDuration
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: theBOSS_prebab
+      value: 
+      objectReference: {fileID: 424834125}
+    - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
+      propertyPath: acceptFightingBoss
+      value: 
+      objectReference: {fileID: 424834127}
     - target: {fileID: 9116340332995539064, guid: 912ba75f4c9f91e4e8c08e811e8b4edf, type: 3}
       propertyPath: fogWalls.Array.size
       value: 1
@@ -1116,6 +1122,17 @@ MonoBehaviour:
   - {fileID: 5569818030183553092, guid: 0a6fbf175e91e634c9b25a2ed81d16c9, type: 3}
   - {fileID: 7528239860055596955, guid: 4b7b9048ebece3d469b1bb2d64577c29, type: 3}
   - {fileID: 1294126455384193215, guid: 6522fc775a4466d44b38122ebb5164ed, type: 3}
+--- !u!114 &424834127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7999937385290257257, guid: be228b880d407e84a8403305a2ea1bca, type: 3}
+  m_PrefabInstance: {fileID: 424834122}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7b0671e402bd047aeac747347b4374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531806117
 GameObject:
   m_ObjectHideFlags: 0

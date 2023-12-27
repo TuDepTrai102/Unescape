@@ -96,7 +96,6 @@ namespace NT
 
         [Header("BOSS DEFEAT FROM WORLD")]
         public SerializbleDictionary<int, bool> bossInWorld;
-        public SerializbleDictionary<int, bool> fogWallInWorld;
 
         [Header("BONFIRE FROM WORLD")]
         public SerializbleDictionary<int, bool> bonfireInWorld;
@@ -106,7 +105,6 @@ namespace NT
             itemInWorld = new SerializbleDictionary<int, bool>();
             _talentPlayer = new SerializbleDictionary<int, bool>();
             bossInWorld = new SerializbleDictionary<int, bool>();
-            fogWallInWorld = new SerializbleDictionary<int, bool>();
             bonfireInWorld = new SerializbleDictionary<int, bool>();
         }
     }

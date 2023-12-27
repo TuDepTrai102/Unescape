@@ -14,8 +14,8 @@ namespace NT
 
         [Header("GRAVITY SETTINGS")]
         public float inAirTimer = 0;
-        [SerializeField] protected Vector3 yVelocity;
-        [SerializeField] protected float groundYVelocity = -20; //THE FORCE APPLIED TO YOU WHILST GROUND
+        [SerializeField] public Vector3 yVelocity;
+        [SerializeField] public float groundYVelocity = -20; //THE FORCE APPLIED TO YOU WHILST GROUND
         [SerializeField] protected float fallStartYVelocity = -7; //THE FORCE APPLIED TO YOU WHEN YOU BEGIN TO FALL (INCREASES OVER TIME)
         [SerializeField] protected float gravityForce = -25;
         [SerializeField] float groundCheckSphereRadius = 1f;

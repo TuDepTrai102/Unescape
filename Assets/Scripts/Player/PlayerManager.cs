@@ -126,7 +126,8 @@ namespace NT
 
             if (uiManager.shopWindow.activeSelf ||
                 uiManager.levelUpWindow.activeSelf ||
-                uiManager.endingWindow.activeSelf)
+                uiManager.endingWindow.activeSelf
+                /*_worldEventManager.bossHasBeenAwakened*/)
                 return;
 
             CheckForInteractableObject();
@@ -1911,6 +1912,17 @@ namespace NT
                     else
                     {
                         Vector3 loadPosition = new Vector3(-83, -5, 43);
+                        characterController.Move(loadPosition - transform.position);
+                    }
+                }
+                else if (currentCharacterSaveData.sceneIndex == 5)
+                {
+                    if (currentCharacterSaveData.xPosition != 0 &&
+                        currentCharacterSaveData.yPosition != 0 &&
+                        currentCharacterSaveData.zPosition != 0)
+                    {
+                        Vector3 loadPosition = new Vector3(
+                            -7.75f, 5.18f, -85.6f);
                         characterController.Move(loadPosition - transform.position);
                     }
                 }
