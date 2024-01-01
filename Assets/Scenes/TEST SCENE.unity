@@ -912,7 +912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &308261915
 Transform:
   m_ObjectHideFlags: 0
@@ -1230,7 +1230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &376944410
 Transform:
   m_ObjectHideFlags: 0
@@ -1240,7 +1240,7 @@ Transform:
   m_GameObject: {fileID: 376944409}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.17, y: -0.3, z: 0}
+  m_LocalPosition: {x: -4.65, y: -0.3, z: -12.62}
   m_LocalScale: {x: 5, y: 1, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3001,8 +3001,6 @@ MonoBehaviour:
   interactableText: PASS THROUGH FOG
   _collider_wall_BOSS_stage: {fileID: 518619773}
   fogWall: {fileID: 1737122207}
-  fogWallID: 6063
-  hasBeenPassedFogWall: 0
 --- !u!114 &521151335 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7772505984206042361, guid: 0883623ba6131284c8a2bf4a2fe97b66, type: 3}

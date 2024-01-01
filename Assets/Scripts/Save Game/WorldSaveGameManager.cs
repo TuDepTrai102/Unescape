@@ -710,7 +710,7 @@ namespace NT
                 player = FindObjectOfType<PlayerManager>();
             }
 
-            AsyncOperation loadOperation = SceneManager.LoadSceneAsync(6);
+            AsyncOperation loadOperation = SceneManager.LoadSceneAsync("Ending Scene");
             loadOperation.allowSceneActivation = false;
             float loadingProgress = 0;
 

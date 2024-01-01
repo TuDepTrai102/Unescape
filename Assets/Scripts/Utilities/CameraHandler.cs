@@ -6,6 +6,8 @@ namespace NT
 {
     public class CameraHandler : MonoBehaviour
     {
+        public static CameraHandler instance;
+
         InputHandler inputHandler;
         PlayerManager playerManager;
 
@@ -54,6 +56,15 @@ namespace NT
 
         private void Awake()
         {
+            //if (instance == null)
+            //{
+            //    instance = this;
+            //}
+            //else
+            //{
+            //    Destroy(gameObject);
+            //}
+
             defaultPosition = cameraTransform.localPosition.z;
             targetTransform = FindObjectOfType<PlayerManager>().transform;
             inputHandler = FindObjectOfType<InputHandler>();

@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Physical Buff Consumeable Item
   m_EditorClassIdentifier: 
   itemIcon: {fileID: 0}
-  itemName: 
+  itemName: Physical Buff
   itemID: 0
-  maxItemAmount: 0
-  currentItemAmount: 0
+  itemDescription: 'Buff physical Damage for current Weapon
+
+'
+  maxItemAmount: 2
+  currentItemAmount: 1
   itemModel: {fileID: 0}
-  consumeAnimation: 
-  isInteracting: 0
+  consumeAnimation: Buff_02
+  isInteracting: 1
   weaponBuffEffect: {fileID: 11400000, guid: c48cf5fdc4f020940ab5faa2202fcb49, type: 2}
   buffTriggerSound: {fileID: 0}

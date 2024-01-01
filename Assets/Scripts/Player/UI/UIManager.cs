@@ -7,6 +7,8 @@ namespace NT
 {
     public class UIManager : MonoBehaviour
     {
+        public static UIManager instance;
+
         public PlayerManager player;
         public ItemStatsWindowUI itemStatsWindowUI;
         public EquipmentWindowUI equipmentWindowUI;
@@ -98,6 +100,15 @@ namespace NT
 
         private void Awake()
         {
+            //if (instance == null)
+            //{
+            //    instance = this;
+            //}
+            //else
+            //{
+            //    Destroy(gameObject);
+            //}
+
             player = FindObjectOfType<PlayerManager>();
 
             quickSlotsUI = GetComponentInChildren<QuickSlotsUI>();

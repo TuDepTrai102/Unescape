@@ -32,7 +32,7 @@ namespace NT
         public ParticleSystem fireFX;
         public AudioClip bonfireActivationSoundFX;
 
-        AudioSource audioSource;
+        public AudioSource audioSource;
 
         protected override void Awake()
         {

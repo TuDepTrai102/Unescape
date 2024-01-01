@@ -31927,7 +31927,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -32034,6 +32034,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 44c50d170e748b0459cd6aa2d62090ab, type: 3}
   - {fileID: 8300000, guid: 5f1850731f62b8c44be4b9a137ad8617, type: 3}
   - {fileID: 8300000, guid: 95409d2adb11a8640a5fec44ef1fbaeb, type: 3}
+  bonfireMusic: {fileID: 0}
 --- !u!114 &1067774719
 MonoBehaviour:
   m_ObjectHideFlags: 0

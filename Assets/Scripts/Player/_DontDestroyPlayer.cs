@@ -2,17 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _DontDestroyPlayer : MonoBehaviour
+namespace NT
 {
-    // Start is called before the first frame update
-    void Start()
+    public class _DontDestroyPlayer : MonoBehaviour
     {
-        DontDestroyOnLoad(gameObject);
-    }
+        public static _DontDestroyPlayer instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Awake()
+        {
+            //if (instance == null)
+            //{
+            //    instance = this;
+            //}
+            //else
+            //{
+            //    Destroy(gameObject);
+            //}
+        }
+
+        private void Start()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }

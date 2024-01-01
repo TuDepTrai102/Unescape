@@ -7,6 +7,8 @@ namespace NT
 {
     public class PlayerManager : CharacterManager
     {
+        public static PlayerManager instance;
+
         [Header("CAMERA")]
         public CameraHandler cameraHandler;
 
@@ -42,6 +44,7 @@ namespace NT
         protected override void Awake()
         {
             base.Awake();
+
             cameraHandler = FindObjectOfType<CameraHandler>();
             uiManager = FindObjectOfType<UIManager>();
             interactableUI = FindObjectOfType<InteractableUI>();
